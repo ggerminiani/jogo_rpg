@@ -1,1 +1,90 @@
-/.github
+# ================================
+# Maven
+# ================================
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Arquivos de build temporários
+*.class
+*.log
+
+# ================================
+# Java
+# ================================
+*.jar
+*.war
+*.ear
+*.classpath
+*.project
+*.settings/
+
+# ================================
+# IDEs
+# ================================
+
+# IntelliJ IDEA
+*.iml
+.idea/
+
+# Eclipse
+*.classpath
+*.project
+*.settings/
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# ================================
+# Sistema operacional
+# ================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+.directory
+
+# ================================
+# Arquivos temporários / backup
+# ================================
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# ================================
+# Arquivos do Jogo
+# ================================
+
+# Saves gerados dinamicamente — NÃO versionar
+saves/
+
+# Logs da GUI ou console
+*.log
+
+# Arquivos gerados pelo usuário
+*.txt
+!src/**     # exceção: permite .txt dentro de src (caso existam assets)
+
+# ================================
+# Maven Wrapper
+# ================================
+.mvn/wrapper/maven-wrapper.properties
+mvnw
+mvnw.cmd
